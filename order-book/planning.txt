@@ -1,0 +1,32 @@
+IOC order 
+
+behaves like a limit order 
+if not executed fully, remaining quantity is cancelled 
+
+Part 1
+SUB LO B Ffuj 200 13 
+SUB LO B Yy7P 150 11 
+SUB LO B YuFU 100 13 
+SUB LO S IpD8 150 14
+SUB LO S y93N 190 15 
+SUB LO B Y5wb 230 14
+SUB MO B IZLO 250 
+CXL Ffuj 
+CXL 49ze 
+END
+
+Part 2
+SUB LO B N1Eh 300 12
+SUB LO B 0Gxb 250 11 
+SUB LO S JSvU 350 14
+SUB LO S uH6w 320 15
+SUB IOC S ckMR 150 10 
+SUB IOC B DVeP 500 14 
+SUB FOK S ejnR 200 12
+SUB FOK S 8uGs 200 9
+SUB LO B 2va9 250 12
+SUB LO B 9zS1 300 11
+CRP 2va9 480 11
+CRP 9zS1 170 11
+END
+
